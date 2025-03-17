@@ -1,0 +1,27 @@
+#Local Host
+###Get All Contacts
+GET http://localhost:3000/contacts
+
+###Get Contacts by ID
+GET http://localhost:3000/contacts/67d0d4e6c1b16a330950bc29
+
+###
+GET http://localhost:3000/contacts/67d0d5cfc1b16a330950bc2a
+
+###
+GET http://localhost:3000/contacts/67d0d5fdc1b16a330950bc2b
+
+#Production Routes
+
+###Get all Contacts
+GET https://cse341-node-2025.onrender.com/contacts
+
+###Get Contacts by ID
+
+GET https://cse341-node-2025.onrender.com/contacts/67d0d4e6c1b16a330950bc29
+
+###
+GET https://cse341-node-2025.onrender.com/contacts/67d0d5cfc1b16a330950bc2a
+
+###
+GET https://cse341-node-2025.onrender.com/contacts/67d0d5fdc1b16a330950bc2b

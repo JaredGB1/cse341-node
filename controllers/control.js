@@ -2,7 +2,7 @@ const mongodb=require('../database/connect');
 const ObjectId= require('mongodb').ObjectId;
 
 const testRoute1=(req, res) => {
-    res.send("Hello, use route /contacts to access all the contacts or /contacts/id to access a single contact");
+    res.send("Hello, use the route /contacts to access all the contacts or /contacts/id to access a single contact");
   };
 const getSingle=async (req, res) => {
   const userId= new ObjectId(req.params.id);
